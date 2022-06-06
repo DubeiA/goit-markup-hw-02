@@ -1,0 +1,44 @@
+:root {
+    --main-text-color: #757575;
+    --main-heder-color: #212121;
+    --main-backg-color: #E5E5E5;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: #212121;
+}
+
+/* hedear */
+/* logo */
+.logo.logo-two {
+    font-family: 'Releway' sans-serif;
+}
+.logo{
+    color: #2196F3;
+}
+.logo-two {
+    color: #212121;
+}
+/* navigation */
+
+.list .link {
+    color: #212121;
+}
+
+.link:hover,
+.link:focus {
+    color: #2196F3;
+}
+
+
+
+
+/* bottons */
+.btn:hover,
+.btn:focus { 
+background-color:  #2196F3;
+color: #fff;
+}
+
