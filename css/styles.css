@@ -23,7 +23,7 @@ body {
 }
 /* navigation */
 
-.list .link {
+.nav .link {
     color: #212121;
 }
 
@@ -32,8 +32,15 @@ body {
     color: #2196F3;
 }
 
+/* contacts */
+.main-contacts .contacts {
+    color: #757575;
+}
 
-
+.contacts:hover,
+.contacts:focus {
+    color: #2196F3;
+}
 
 /* bottons */
 .btn:hover,
@@ -41,4 +48,87 @@ body {
 background-color:  #2196F3;
 color: #fff;
 }
+/* hero */
 
+.hero { 
+    color: #ffffff;
+    background-color: #2F303A;
+}
+
+/* title - about */
+.title-about {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+}
+
+/* TEAM */
+.team-title { 
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+        /* identical to box height */
+    letter-spacing: 0.03em;
+}
+
+
+/* параграфи (Р)*/
+
+.content {
+    color: #757575;
+}
+
+/* Списки */
+.list {
+    list-style: none;
+}
+
+/* Footer!  */
+.adress {
+    background-color: #2F303A;
+}
+
+.logo-three {
+    color: #ffffff;
+}
+
+.address-nav .contact {
+    color: #ffffff;
+}
+
+.map{
+    color: #ffffff;
+}
+
+.contact:hover,
+.contact:focus { 
+    color: #2196F3;
+}
+
+
+
+/* PORTFOLIO  */
+
+
+
+
+/* nav-buttons */
+.second-nav { 
+    list-style: none;
+    
+}
+/* portfolio-title */
+
+.portfolio-title { 
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    /* identical to box height, or 200% */
+    letter-spacing: 0.06em;
+}
+
+/* list proposition */
+.proposition { 
+    list-style: none;
+}
