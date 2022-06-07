@@ -5,15 +5,20 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    letter-spacing: 0.03em;
 }
+
 
 /* hedear */
 /* logo */
-.logo.logo-two {
-    font-family: 'Releway' sans-serif;
+span {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
 }
 .logo{
     color: #2196F3;
@@ -25,6 +30,10 @@ body {
 
 .nav .link {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    letter-spacing: 0.02em;
 }
 
 .link:hover,
@@ -43,33 +52,51 @@ body {
 }
 
 /* bottons */
+.btn {
+    font-family: inherit;
+    cursor: pointer;
+}
 .btn:hover,
 .btn:focus { 
-background-color:  #2196F3;
-color: #fff;
+    background-color:  #2196F3;
+    color: #fff;
 }
-/* hero */
+/* HERO */
 
 .hero { 
     color: #ffffff;
     background-color: #2F303A;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,36;
+        /* or 136% */
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
-
+/* second-hero */
+.second-hero{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+}
 /* title - about */
 .title-about {
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
+    line-height: 1,42;
+    
 }
+
+
 
 /* TEAM */
 .team-title { 
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
-        /* identical to box height */
-    letter-spacing: 0.03em;
+    line-height: 1,19;
+   
 }
 
 
@@ -78,11 +105,23 @@ color: #fff;
 .content {
     color: #757575;
 }
+.main-content {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,71;
+}
+.second-content { 
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1,87;
+}
 
 /* Списки */
 .list {
     list-style: none;
 }
+
+
 
 /* Footer!  */
 .adress {
@@ -111,8 +150,6 @@ color: #fff;
 /* PORTFOLIO  */
 
 
-
-
 /* nav-buttons */
 .second-nav { 
     list-style: none;
@@ -123,7 +160,7 @@ color: #fff;
 .portfolio-title { 
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     /* identical to box height, or 200% */
     letter-spacing: 0.06em;
 }
