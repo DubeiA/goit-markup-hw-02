@@ -116,8 +116,8 @@ span {
 .second-btn:hover,
 .second-btn:focus {
     background-color: var(--hover-color);
-    font-family: inherit;
     cursor: pointer;
+    color: var(--main-backg-color);
 }
 .second-btn { 
     border: none;   
@@ -224,11 +224,10 @@ background-color: var(--secondary-section-color);
     color: var(--main-secondary-color);
 }
 .main-content {
-    font-weight: 400;
     line-height: 1.71;
 }
-.second-content { 
-    font-weight: 400;
+.second-content {
+    
     font-size: 16px;
     line-height: 1.87;
 }
