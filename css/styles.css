@@ -224,11 +224,13 @@ span {
 
 .second-btn {
 	border: none;
-	/* font-weight: 500;
+    font-family: inherit;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.62px; */
-	/* identical to box height, or 162% */
-	text-align: center;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+	
 }
 
 /* .btn-one {
