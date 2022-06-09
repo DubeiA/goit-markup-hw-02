@@ -219,7 +219,7 @@ span {
 .second-btn:hover,
 .second-btn:focus {
 	background-color: var(--hover-color);
-	cursor: pointer;
+
 	color: var(--main-backg-color);
 }
 
@@ -231,7 +231,7 @@ span {
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
-	
+	cursor: pointer;
 }
 
 /* .btn-one {
