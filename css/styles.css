@@ -6,6 +6,7 @@
 	--heder-backg-color: #2f303a;
 	--main-section-color: #e5e5e5;
 	--secondary-section-color: #f5f4fa;
+	--main-btn-color: #188CE8;
 }
 
 body {
@@ -91,7 +92,7 @@ span {
 	/* height: 50px;
     left: 825px;
     top: 513px; */
-	background: var(--hover-color);
+	background: var(--main-btn-color);
 	color: var(--main-backg-color);
 
 	font-weight: 700;
