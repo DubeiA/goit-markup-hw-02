@@ -6,7 +6,7 @@
 	--heder-backg-color: #2f303a;
 	--main-section-color: #e5e5e5;
 	--secondary-section-color: #f5f4fa;
-	--main-btn-color: #188CE8;
+	--main-btn-color: #188ce8;
 }
 
 body {
@@ -92,7 +92,7 @@ span {
 	/* height: 50px;
     left: 825px;
     top: 513px; */
-	background: var(--main-btn-color);
+	background: var(--hover-color);
 	color: var(--main-backg-color);
 
 	font-weight: 700;
@@ -104,6 +104,10 @@ span {
 
 	font-family: inherit;
 	cursor: pointer;
+}
+.main-btn:hover,
+.main-btn:focus {
+	background-color: var(--main-btn-color);
 }
 
 /* HERO */
@@ -225,12 +229,12 @@ span {
 
 .second-btn {
 	border: none;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    text-align: center;
-    letter-spacing: 0.03em;
+	font-family: inherit;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.62;
+	text-align: center;
+	letter-spacing: 0.03em;
 	cursor: pointer;
 }
 
@@ -262,7 +266,7 @@ span {
 	line-height: 2;
 	/* identical to box height, or 200% */
 	letter-spacing: 0.06em;
-    color: var(--main-color);
+	color: var(--main-color);
 }
 
 /* list proposition */
@@ -270,7 +274,6 @@ span {
 	list-style: none;
 }
 
-.portfolio-list { 
-    text-decoration: none;
-
+.portfolio-list {
+	text-decoration: none;
 }
